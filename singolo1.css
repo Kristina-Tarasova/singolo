@@ -47,9 +47,31 @@ body {
     background-color: #323746;
 }
 .slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     height: 594px;
     background-color: #f06c64;
     padding: 0 40px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+.slider__right:hover {
+    cursor: pointer;
+}
+.slider__left:hover {
+    cursor: pointer;
+}
+.slider__iphone-vertical {
+    position: absolute;
+    left: 112px;
+    top: 53px;
+}
+.slider__iphone-horizontal {
+    position: absolute;
+    left: 425px;
+    top: 174px;
 }
 .separator_color_red {
     background-color: #ea676b;   
