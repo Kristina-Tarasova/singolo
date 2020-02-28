@@ -46,3 +46,63 @@ body {
 .separator_color_grey {
     background-color: #323746;
 }
+.slider {
+    height: 594px;
+    background-color: #f06c64;
+    padding: 0 40px;
+}
+.separator_color_red {
+    background-color: #ea676b;   
+}
+.separator_color_white {
+    background-color: white;
+}
+.services {
+    padding: 0 40px;
+    background-color: #f2f2f2;
+    color: #666d89;
+    height: 495px;
+}
+.layout-3-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    margin-top: 45px;
+}
+.card {
+    display: flex;  
+    width: calc(33.3333333333% - 20px);
+    margin: 0 10px;
+    padding-bottom: 34px;
+}
+.services__title {
+    padding-top: 62px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.services__description {
+    margin-top: 22px;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.7;
+    word-spacing: 1px;
+}
+.card__img {
+    width: 60px;
+    height: 60px;
+}
+.card__text {
+    margin-left: 22px;
+}
+.card__title {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: -2px;
+}
+.card__description {
+    font-size: 12px;
+    line-height: 1.83;
+    padding-top: 11px;
+}
+
+
