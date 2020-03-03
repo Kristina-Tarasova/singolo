@@ -110,6 +110,9 @@ body {
     font-weight: bold;
     color: white;
 }
+.navigation__link:hover {
+    color: #dbdc7e;
+}
 .navigation__decoration {
     margin: 0 12px;
     color: #3d4151;
