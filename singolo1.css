@@ -94,14 +94,14 @@ body {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .logo__element {
     color: #f06c64;
 }
 .navigation {
     display: flex;  
-    margin-top: 5px;
+    padding-top: 5px;
 }
 .navigation__link {
     text-transform: uppercase;
@@ -165,14 +165,16 @@ body {
 .layout-3-column {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 46px;
+}
+.services__layout-3-column {
     margin: 0 -10px;
-    margin-top: 45px;
 }
 .card {
     display: flex;  
     width: calc(33.3333333333% - 20px);
-    margin: 0 10px;
-    padding-bottom: 34px;
+    padding: 0 10px;
+    padding-bottom: 30px;
 }
 .services__title {
     padding-top: 62px;
@@ -196,7 +198,6 @@ body {
 .card__title {
     font-size: 18px;
     font-weight: 900;
-    margin-top: -2px;
 }
 .card__description {
     font-size: 12px;
